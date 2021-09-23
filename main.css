@@ -4,4 +4,54 @@
     padding: 0;
 }
 
-/* https://img.freepik.com/free-vector/low-poly-abstract-design-rose-gold_1048-12565.jpg?size=626&ext=jpg */
+
+body{
+    background-image: url("https://img.freepik.com/free-vector/low-poly-abstract-design-rose-gold_1048-12565.jpg?size=626&ext=jpg");
+    background-size: cover;
+    
+
+}
+
+
+h1{
+color: rgb(192, 112, 59);
+text-align: Center;
+margin: 15px;
+font-size: 60px;
+}
+
+
+/* .menu{
+
+} */
+
+.nav{
+    text-align: center;
+}
+
+.nav li{
+    list-style: none;
+    display: inline;
+    margin-inline: 20px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color:rgb(252, 243, 238);
+    font-size: 20px;
+    text-transform: uppercase;
+    }
+
+.nav li a:hover{
+    border: 1px white;
+    border-radius: 100px;
+    background-color: rgb(83, 47, 53);
+
+}
+
+.paragraph{
+    text-align: center;
+    margin: 200px;
+    font-size: 30px;
+    font-style: oblique;
+}
