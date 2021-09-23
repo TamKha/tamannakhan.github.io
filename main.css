@@ -55,3 +55,20 @@ font-size: 60px;
     font-size: 30px;
     font-style: oblique;
 }
+
+.menu-contact{
+    text-align: center;
+    margin: 100px;
+    
+}
+
+.contact{
+    list-style: none;
+
+}
+
+.contact li a{
+    text-decoration: none;
+    color: pink;
+    font-size: 30px;
+}
