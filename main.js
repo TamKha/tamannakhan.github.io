@@ -1,4 +1,10 @@
 
+var myAge=27;
+console.log(myAge);
+
+
+
+
 
 //skapar en variabel som döps till myElement som hämtar infon från min id som jag skapat i min html dokument
 var myElement = document.getElementById("my-paragraph");
@@ -41,6 +47,7 @@ console.log("Nu är det fixat")
 
 // skapat en funktion med parameter string, skapar två variabler word = tom sträng, myWord = värde sant. 
 //skapar en for loop med villkor med en if sats. 
+
 
 function capLetter(string) {
     var word = " ";
