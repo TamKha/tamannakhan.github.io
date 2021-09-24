@@ -4,7 +4,7 @@
 var myElement = document.getElementById("my-paragraph");
 
 //skapar en evetlistener som avvaktar med att utföra tills man klickar på min sida. Skapar en funktion.
-//Funktionen anropar myElement varaiabl som sedan ska in och ersätta min paragraf med ny text. 
+//Funktionen anropar myElement varaiabel som sedan ska in och ersätta min paragraf med ny text med html DOM
 //så den får samma stayling som min gamla titel.
 myElement.addEventListener("click", function(){
   myElement.innerHTML="<p>BELIVE</p>"
@@ -36,3 +36,23 @@ catch(error){
 }
 
 console.log("Nu är det fixat")
+
+
+
+// skapat en funktion med parameter string, skapar två variabler word = tom sträng, myWord = värde sant. 
+//skapar en for loop med villkor med en if sats. 
+
+function capLetter(string) {
+    var word = " ";
+    var myWord = true;
+    for (var i = 0; i < string.length; i++){
+        if(myWord){
+            myWord = false;
+            word += string[i].toUpperCase();
+        } 
+        else word += string[i];
+        if(string[i] === "") myWord = true;
+    }
+    return word;
+}
+console.log(capLetter("tja"));
