@@ -1,19 +1,5 @@
 
 
-// Första variabeln skapas och ges värdet 27
-// Detta värde skrivs ut i konsolen på sidan
-var myAge=27;
-console.log(myAge);
-
-
-// //skapar en funktion som döps till myFunction
-// function myFunction(number){
-// console.log(number);
-// }
-
-// //anropar på funktionen
-// myFunction();
-
 //skapar en variabel som döps till myElement som hämtar infon från min id som jag skapat i min html dokument
 var myElement = document.getElementById("my-paragraph");
 
