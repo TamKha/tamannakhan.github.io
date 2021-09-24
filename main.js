@@ -10,20 +10,22 @@ myElement.addEventListener("click", function(){
   myElement.innerHTML="<p>BELIVE</p>"
 })
 
-// Skapar en for loop som innehåller funktion med variabler som ska skirva ut alla frukter i konsolen.
+// Skapar en for loop som innehåller funktion med variabler som ska skriva ut alla frukter i konsolen.
 // Alla frukter skapas i samma variabel
 
 function allFruits(){
     var fruitsNames = ["Mango","Persika","Hallon"];
     var fruitsTotal = fruitsNames.length;
 
+
+// variabel i för index med värdet 0; om i är mindre än fruktnamn längden så plussar den på och skriver ut i konsolen frukt index    
     for (var i=0; i<fruitsTotal; i++)
     console.log(fruitsNames[i]);
 }
 
 allFruits();
 
-
+// Gjort en catch som försöker hämta ett ID som inte existerar, catchar felet skriver ut det i konsolen + error. 
 try {
     var myWrongID = getElementById("HEJ");
     myWrongID.innerHTML += "test";
